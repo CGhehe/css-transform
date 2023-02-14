@@ -1,47 +1,55 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    background-color: #eee;
-    margin-bottom: 1%;
-    padding: 2%;
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
 .box {
-    width: 10%;
-    aspect-ratio: 1/1;
-    padding: 1%;
-    margin: 0.3%;
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
 }
 
 #container {
-    position: relative;
-    border: 3px red dashed;
-    width: 100%;
-    aspect-ratio: 10/9;
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
 }
 
 /* SKRIV KUN KODE HERUNDER */
 
 .redBox {
-    background-color: #ff1d00;
+  background-color: #ff1d00;
+  transform-origin: -100% 50%;
+  transform: rotate(90deg);
+  translate: 555px;
 }
 
 .yellowBox {
-    background-color: #ffeb00;
+  background-color: #ffeb00;
+  transform-origin: -70% 67%;
+  transform: rotate(170deg);
+  translate: 555px;
 }
 
 .pinkBox {
-    background-color: #ff9ecf;
+  background-color: #ff9ecf;
+  translate: 100px;
+  translate: 50px;
 }
 
 .greenBox {
-    background-color: #1fd81f;
+  background-color: #1fd81f;
 }
 
 .blueBox {
-    background-color: #0180fc;
+  background-color: #0180fc;
 }
